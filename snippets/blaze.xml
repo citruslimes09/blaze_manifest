@@ -84,7 +84,6 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="blaze" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="blaze" />
    
   <!-- packages repos -->
   <!--project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="blaze" /-->
