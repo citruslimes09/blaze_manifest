@@ -7,7 +7,7 @@
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="derp" revision="14-caf" />
-  <project path="hardware/qcom-caf/common" name="citruslimes09/hardware_qcom-caf_common" revision="14" groups="qcom" remote="derp" >
+  <project path="hardware/qcom-caf/common" name="citruslimes09/hardware_qcom-caf_common" revision="14" groups="qcom" remote="github" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
    <!-- Add guards for CAF repositories -->
